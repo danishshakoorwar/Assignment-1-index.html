@@ -1,0 +1,6 @@
+QNO 4: Write a Short Note On Tag & Elements ? In HTML, tags and elements are fundamental concepts used to structure and 
+define the content of a webpage. Tag: A tag is a piece of code that represents an HTML element. Tags are used to define 
+and enclose different parts of the content, such as headings, paragraphs, images, links, etc. Tags are typically written 
+with angle brackets, and they come in pairs – an opening tag and a closing tag. Opening tags are used to begin an element,
+ and closing tags are used to end it. Element: An element is formed by the combination of an opening tag, content, and a 
+closing tag. Elements represent the building blocks of an HTML document, defining the structure and content of the webpage.
