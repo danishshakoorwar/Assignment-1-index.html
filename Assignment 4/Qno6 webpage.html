@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features Showcase</title>
+</head>
+<body>
+
+    <header>
+        <h1>Exploring HTML5 Features</h1>
+        <p>A brief overview of some key features of HTML5</p>
+    </header>
+
+    <section>
+        <h2>Semantic Tags</h2>
+        <p>HTML5 introduces semantic tags that enhance the structure and meaning of your content. Some of these include:</p>
+        <ul>
+            <li>&lt;header&gt;</li>
+            <li>&lt;nav&gt;</li>
+            <li>&lt;article&gt;</li>
+            <li>&lt;section&gt;</li>
+            <li>&lt;aside&gt;</li>
+            <li>&lt;footer&gt;</li>
+        </ul>
+        <p>Using semantic tags improves accessibility and makes your HTML more meaningful for search engines and developers.</p>
+    </section>
+
+    <section>
+        <h2>Multimedia Support</h2>
+        <p>HTML5 provides native support for multimedia elements without relying on third-party plugins. The &lt;audio&gt; and &lt;video&gt; tags allow seamless integration of audio and video content:</p>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <video width="400" controls>
+            <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <p>This makes it easier to share and play multimedia content on the web.</p>
+    </section>
+
+    <section>
+        <h2>Form Validation</h2>
+        <p>HTML5 introduces built-in form validation attributes. Try submitting the form without entering a name:</p>
+        <form action="#" method="post" novalidate>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>Explore more about HTML5 to unlock its full potential in web development!</p>
+    </footer>
+
+</body>
+</html>

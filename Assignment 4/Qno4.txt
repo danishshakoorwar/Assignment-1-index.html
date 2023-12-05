@@ -1,0 +1,33 @@
+Qno4 :List any 3 ways which help us in improving the accessibility of HTML?
+
+Improving the accessibility of HTML involves implementing practices and techniques that make web content more usable for people with disabilities. Here are three key ways to enhance HTML accessibility:
+
+Use Semantic HTML Elements:
+
+Semantic HTML elements provide meaning to the structure and content of a webpage. Using appropriate tags helps screen readers and other assistive technologies understand the hierarchy and purpose of content. For example:
+Use <header>, <nav>, <main>, <article>, <section>, and <footer> to define the structure of your page.
+Use <h1> to <h6> for heading levels in a hierarchical order.
+Provide Alternative Text for Images:
+
+For images, use the alt attribute to provide descriptive alternative text. This text is read by screen readers to convey the 
+content and purpose of the image to users with visual impairments. If an image is purely decorative and doesn't convey important 
+information, use an empty alt attribute (alt="") to indicate it as such.
+
+
+<img src="example.jpg" alt="A description of the image">
+Ensure Keyboard Accessibility:
+
+Many users with disabilities rely on keyboards or other input devices instead of a mouse. Ensure that all interactive elements 
+on your page, such as links and form controls, are accessible via keyboard navigation. Test your website using the "tab" key 
+to navigate through links and form fields. Additionally, avoid relying on mouse-only events like onmouseover or onclick without
+providing keyboard equivalents.
+
+<!-- Example of a clickable element with keyboard support -->
+<a href="example.html" role="button" tabindex="0">Click me</a>
+
+These practices not only improve accessibility for users with disabilities but also contribute to creating a more structured,
+understandable, and user-friendly experience for all visitors to your website. Always consider the diverse needs of your 
+audience when developing web content and strive to make it as inclusive as possible.
+
+
+
