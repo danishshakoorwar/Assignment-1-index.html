@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Pages with Div Tags</title>
+
+    <!-- Internal CSS: Styling applied to all divs -->
+    <style>
+        div {
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #333;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS: Styling applied only to this div -->
+    <div style="color: blue; font-size: 18px;">
+        inline 
+    </div>
+
+    <!-- Internal CSS: Styling applied to all divs (combined with the external style) -->
+    <div>
+         internal 
+    </div>
+
+    <!-- External CSS: Linking to a separate stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- External CSS: Styling applied to all divs (combined with the internal style) -->
+    <div>
+         external
+    </div>
+    <div style="color: rgb(0, 255, 64); font-size: 18px;">
+        inline + external
+    </div>
+    <div style="color: rgb(255, 0, 0); font-size: 18px;">
+        internal+ external
+    </div
+
+</body>
+</html>
